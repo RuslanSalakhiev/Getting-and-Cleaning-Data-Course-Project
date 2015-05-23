@@ -1,7 +1,7 @@
 | Variable name               | Position | Variable                                                                                  | Values or Explanation                                          |
 |-----------------------------|----------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | subject_num                 | 1        | Number of subject                                                                         | Numeric, 1:30                                                  |
-| activity                    | 2        | Activity label                                                                            | WALKINGWALKING_UPSTAIRSWALKING_DOWNSTAIRSSITTINGSTANDINGLAYING |
+| activity                    | 2        | Activity label                                                                            | WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING |
 | tBodyAcc.mean...X           | 3        | Mean of time domain Body signal from Accelerometer by X direction                         | Numeric, value normalised between -1 and +1                    |
 | tBodyAcc.mean...Y           | 4        | Mean of time domain Body signal from Accelerometer by Y direction                         | Numeric, value normalised between -1 and +1                    |
 | tBodyAcc.mean...Z           | 5        | Mean of time domain Body signal from Accelerometer by Z direction                         | Numeric, value normalised between -1 and +1                    |
