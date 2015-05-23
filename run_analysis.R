@@ -1,18 +1,14 @@
 
 library(dplyr)
 library(tidyr)
+##### save working directory
+##### working directory should be "UCI HAR Dataset" folder
 
 wd <- getwd()
 
-##### empty dataframes to merge train and test data
-
-DataTest <- data.frame() 
-DataTrain <- data.frame()
-DataMerged <- data.frame()
-
 ##### read test data
 
-setwd("test")
+setwd("UCI HAR Dataset/test")
 DataTest <- cbind(read.table("X_test.txt"),
                   read.table("Y_test.txt"),
                   read.table("subject_test.txt"))
@@ -20,7 +16,7 @@ DataTest <- cbind(read.table("X_test.txt"),
 ##### read train data
 
 setwd(wd)
-setwd("train")
+setwd("UCI HAR Dataset/train")
 
 DataTrain <- cbind(read.table("X_train.txt"),
                    read.table("Y_train.txt"),
@@ -32,6 +28,7 @@ DataMerged <- rbind(DataTest,DataTrain)
 
 ##### read file with labels
 setwd(wd)
+setwd("UCI HAR Dataset")
 Names <- read.table("features.txt")
 
 ##### labelling dataframe
@@ -46,7 +43,8 @@ names(DataMerged) <- valid_names
 Mean_Std_Data <- cbind(select(DataMerged,contains(".mean.")),
                        select(DataMerged, contains(".std.")),
                        DataMerged[,562:563])
-
+##### delete unnecessary data
+rm("DataTest","DataTrain","DataMerged","Names","valid_names")
 ##### adding activity description
 
 Activity <- read.table("activity_labels.txt")
@@ -57,4 +55,7 @@ Mean_Std_Data <- select(Mean_Std_Data, -activity_num)
 ##### making Tidy data frame
  TidyData<- Mean_Std_Data %>% group_by(subject_num,activity) %>% summarise_each(funs(mean))
 
-write.table(TidyData,"Summarized_Dataset.txt")
+##### write final tidy dataset
+setwd(wd)
+write.table(TidyData,"Summarized_Data.txt", row.names = FALSE)
+
