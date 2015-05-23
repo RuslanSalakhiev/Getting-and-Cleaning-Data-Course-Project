@@ -1,0 +1,70 @@
+| Variable name               | Position | Variable                                                                                  | Values or Explanation                                          |
+|-----------------------------|----------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| subject_num                 | 1        | Number of subject                                                                         | Numeric, 1:30                                                  |
+| activity                    | 2        | Activity label                                                                            | WALKINGWALKING_UPSTAIRSWALKING_DOWNSTAIRSSITTINGSTANDINGLAYING |
+| tBodyAcc.mean...X           | 3        | Mean of time domain Body signal from Accelerometer by X direction                         | Numeric, value normalised between -1 and +1                    |
+| tBodyAcc.mean...Y           | 4        | Mean of time domain Body signal from Accelerometer by Y direction                         | Numeric, value normalised between -1 and +1                    |
+| tBodyAcc.mean...Z           | 5        | Mean of time domain Body signal from Accelerometer by Z direction                         | Numeric, value normalised between -1 and +1                    |
+| tGravityAcc.mean...X        | 6        | Mean of time domain Gravity signal from Accelerometer by X direction                      | Numeric, value normalised between -1 and +1                    |
+| tGravityAcc.mean...Y        | 7        | Mean of time domain Gravity signal from Accelerometer by Y direction                      | Numeric, value normalised between -1 and +1                    |
+| tGravityAcc.mean...Z        | 8        | Mean of time domain Gravity signal from Accelerometer by Z direction                      | Numeric, value normalised between -1 and +1                    |
+| tBodyAccJerk.mean...X       | 9        | Mean of time domain Jerk Body signal from Accelerometer by X direction                    | Numeric, value normalised between -1 and +1                    |
+| tBodyAccJerk.mean...Y       | 10       | Mean of time domain Jerk Body signal from Accelerometer by Y direction                    | Numeric, value normalised between -1 and +1                    |
+| tBodyAccJerk.mean...Z       | 11       | Mean of time domain Jerk Body signal from Accelerometer by Z direction                    | Numeric, value normalised between -1 and +1                    |
+| tBodyGyro.mean...X          | 12       | Mean of time domain Body signal from Gyroscope by X direction                             | Numeric, value normalised between -1 and +1                    |
+| tBodyGyro.mean...Y          | 13       | Mean of time domain Body signal from Gyroscope by Y direction                             | Numeric, value normalised between -1 and +1                    |
+| tBodyGyro.mean...Z          | 14       | Mean of time domain Body signal from Gyroscope by Z direction                             | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroJerk.mean...X      | 15       | Mean of time domain Jerk Body signal from Gyroscope by X direction                        | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroJerk.mean...Y      | 16       | Mean of time domain Jerk Body signal from Gyroscope by Y direction                        | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroJerk.mean...Z      | 17       | Mean of time domain Jerk Body signal from Gyroscope by Z direction                        | Numeric, value normalised between -1 and +1                    |
+| tBodyAccMag.mean..          | 18       | Mean of magnitude Body signal from Accelerometer                                          | Numeric, value normalised between -1 and +1                    |
+| tGravityAccMag.mean..       | 19       | Mean of magnitude Gravity signal from Accelerometer                                       | Numeric, value normalised between -1 and +1                    |
+| tBodyAccJerkMag.mean..      | 20       | Mean of magnitude Jerk Body signal from Accelerometer                                     | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroMag.mean..         | 21       | Mean of magnitude Body signal from Gyroscope                                              | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroJerkMag.mean..     | 22       | Mean of magnitude Jerk Body signal from Gyroscope                                         | Numeric, value normalised between -1 and +1                    |
+| fBodyAcc.mean...X           | 23       | Mean of frequency domain Body signal from Accelerometer by X direction                    | Numeric, value normalised between -1 and +1                    |
+| fBodyAcc.mean...Y           | 24       | Mean of frequency domain Body signal from Accelerometer by Y direction                    | Numeric, value normalised between -1 and +1                    |
+| fBodyAcc.mean...Z           | 25       | Mean of frequency domain Body signal from Accelerometer by Z direction                    | Numeric, value normalised between -1 and +1                    |
+| fBodyAccJerk.mean...X       | 26       | Mean of frequency domain Jerk Body signal from Accelerometer by X direction               | Numeric, value normalised between -1 and +1                    |
+| fBodyAccJerk.mean...Y       | 27       | Mean of frequency domain Jerk Body signal from Accelerometer by Y direction               | Numeric, value normalised between -1 and +1                    |
+| fBodyAccJerk.mean...Z       | 28       | Mean of frequency domain Jerk Body signal from Accelerometer by Z direction               | Numeric, value normalised between -1 and +1                    |
+| fBodyGyro.mean...X          | 29       | Mean of frequency domain Body signal from Gyroscope by X direction                        | Numeric, value normalised between -1 and +1                    |
+| fBodyGyro.mean...Y          | 30       | Mean of frequency domain Body signal from Gyroscope by Y direction                        | Numeric, value normalised between -1 and +1                    |
+| fBodyGyro.mean...Z          | 31       | Mean of frequency domain Body signal from Gyroscope by Z direction                        | Numeric, value normalised between -1 and +1                    |
+| fBodyAccMag.mean..          | 32       | Mean of magnitude Body signal from Accelerometer                                          | Numeric, value normalised between -1 and +1                    |
+| fBodyBodyAccJerkMag.mean..  | 33       | Mean of magnitude Jerk Body signal from Accelerometer                                     | Numeric, value normalised between -1 and +1                    |
+| fBodyBodyGyroMag.mean..     | 34       | Mean of magnitude Body signal from Gyroscope                                              | Numeric, value normalised between -1 and +1                    |
+| fBodyBodyGyroJerkMag.mean.. | 35       | Mean of magnitude Jerk Body signal from Gyroscope                                         | Numeric, value normalised between -1 and +1                    |
+| tBodyAcc.std...X            | 36       | Standart Deviation of time domain Body signal from Accelerometer by X direction           | Numeric, value normalised between -1 and +1                    |
+| tBodyAcc.std...Y            | 37       | Standart Deviation of time domain Body signal from Accelerometer by Y direction           | Numeric, value normalised between -1 and +1                    |
+| tBodyAcc.std...Z            | 38       | Standart Deviation of time domain Body signal from Accelerometer by Z direction           | Numeric, value normalised between -1 and +1                    |
+| tGravityAcc.std...X         | 39       | Standart Deviation of time domain Gravity signal from Accelerometer by X direction        | Numeric, value normalised between -1 and +1                    |
+| tGravityAcc.std...Y         | 40       | Standart Deviation of time domain Gravity signal from Accelerometer by Y direction        | Numeric, value normalised between -1 and +1                    |
+| tGravityAcc.std...Z         | 41       | Standart Deviation of time domain Gravity signal from Accelerometer by Z direction        | Numeric, value normalised between -1 and +1                    |
+| tBodyAccJerk.std...X        | 42       | Standart Deviation of time domain Jerk Body signal from Accelerometer by X direction      | Numeric, value normalised between -1 and +1                    |
+| tBodyAccJerk.std...Y        | 43       | Standart Deviation of time domain Jerk Body signal from Accelerometer by Y direction      | Numeric, value normalised between -1 and +1                    |
+| tBodyAccJerk.std...Z        | 44       | Standart Deviation of time domain Jerk Body signal from Accelerometer by Z direction      | Numeric, value normalised between -1 and +1                    |
+| tBodyGyro.std...X           | 45       | Standart Deviation of time domain Body signal from Gyroscope by X direction               | Numeric, value normalised between -1 and +1                    |
+| tBodyGyro.std...Y           | 46       | Standart Deviation of time domain Body signal from Gyroscope by Y direction               | Numeric, value normalised between -1 and +1                    |
+| tBodyGyro.std...Z           | 47       | Standart Deviation of time domain Body signal from Gyroscope by Z direction               | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroJerk.std...X       | 48       | Standart Deviation of time domain Jerk Body signal from Gyroscope by X direction          | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroJerk.std...Y       | 49       | Standart Deviation of time domain Jerk Body signal from Gyroscope by Y direction          | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroJerk.std...Z       | 50       | Standart Deviation of time domain Jerk Body signal from Gyroscope by Z direction          | Numeric, value normalised between -1 and +1                    |
+| tBodyAccMag.std..           | 51       | Standart Deviation of magnitude Body signal from Accelerometer                            | Numeric, value normalised between -1 and +1                    |
+| tGravityAccMag.std..        | 52       | Standart Deviation of magnitude Gravity signal from Accelerometer                         | Numeric, value normalised between -1 and +1                    |
+| tBodyAccJerkMag.std..       | 53       | Standart Deviation of magnitude Jerk Body signal from Accelerometer                       | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroMag.std..          | 54       | Standart Deviation of magnitude Body signal from Gyroscope                                | Numeric, value normalised between -1 and +1                    |
+| tBodyGyroJerkMag.std..      | 55       | Standart Deviation of magnitude Jerk Body signal from Gyroscope                           | Numeric, value normalised between -1 and +1                    |
+| fBodyAcc.std...X            | 56       | Standart Deviation of frequency domain Body signal from Accelerometer by X direction      | Numeric, value normalised between -1 and +1                    |
+| fBodyAcc.std...Y            | 57       | Standart Deviation of frequency domain Body signal from Accelerometer by Y direction      | Numeric, value normalised between -1 and +1                    |
+| fBodyAcc.std...Z            | 58       | Standart Deviation of frequency domain Body signal from Accelerometer by Z direction      | Numeric, value normalised between -1 and +1                    |
+| fBodyAccJerk.std...X        | 59       | Standart Deviation of frequency domain Jerk Body signal from Accelerometer by X direction | Numeric, value normalised between -1 and +1                    |
+| fBodyAccJerk.std...Y        | 60       | Standart Deviation of frequency domain Jerk Body signal from Accelerometer by Y direction | Numeric, value normalised between -1 and +1                    |
+| fBodyAccJerk.std...Z        | 61       | Standart Deviation of frequency domain Jerk Body signal from Accelerometer by Z direction | Numeric, value normalised between -1 and +1                    |
+| fBodyGyro.std...X           | 62       | Standart Deviation of frequency domain Body signal from Gyroscope by X direction          | Numeric, value normalised between -1 and +1                    |
+| fBodyGyro.std...Y           | 63       | Standart Deviation of frequency domain Body signal from Gyroscope by Y direction          | Numeric, value normalised between -1 and +1                    |
+| fBodyGyro.std...Z           | 64       | Standart Deviation of frequency domain Body signal from Gyroscope by Z direction          | Numeric, value normalised between -1 and +1                    |
+| fBodyAccMag.std..           | 65       | Standart Deviation of magnitude Body signal from Accelerometer                            | Numeric, value normalised between -1 and +1                    |
+| fBodyBodyAccJerkMag.std..   | 66       | Standart Deviation of magnitude Jerk Body signal from Accelerometer                       | Numeric, value normalised between -1 and +1                    |
+| fBodyBodyGyroMag.std..      | 67       | Standart Deviation of magnitude Body signal from Gyroscope                                | Numeric, value normalised between -1 and +1                    |
+| fBodyBodyGyroJerkMag.std..  | 68       | Standart Deviation of magnitude Jerk Body signal from Gyroscope                           | Numeric, value normalised between -1 and +1                    |
